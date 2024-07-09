@@ -6,6 +6,8 @@
   "scripts": {
     "test": "jest",
     "start": "vite",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "vite build"
   },
   "repository": {
@@ -24,6 +26,7 @@
   "homepage": "https://github.com/Ch-Sai-Jaswanth/WeatherApp#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.4",
     "vite": "^5.3.3"
