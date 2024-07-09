@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/Ch-Sai-Jaswanth/WeatherApp/issues"
   },
-  "homepage": "https://Ch-Sai-Jaswanth.github.io/WeatherApp",
+  "homepage": "https://Ch-Sai-Jaswanth.github.io/WeatherApp/",
   "devDependencies": {
     "autoprefixer": "^10.4.19",
     "gh-pages": "^6.1.1",
