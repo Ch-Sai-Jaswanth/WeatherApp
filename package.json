@@ -7,7 +7,7 @@
     "test": "jest",
     "start": "vite",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy" : "gh-pages -d dist",
     "build": "vite build"
   },
   "repository": {
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/Ch-Sai-Jaswanth/WeatherApp/issues"
   },
-  "homepage": "https://github.com/Ch-Sai-Jaswanth/WeatherApp#readme",
+  "homepage": "https://Ch-Sai-Jaswanth.github.io/WeatherApp",
   "devDependencies": {
     "autoprefixer": "^10.4.19",
     "gh-pages": "^6.1.1",
