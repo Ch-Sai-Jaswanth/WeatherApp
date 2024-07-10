@@ -18,7 +18,7 @@ const Appcomp = () => {
 
 const appRouter = createBrowserRouter([
     {
-        path : "/WeatherApp",
+        path : "/",
         element : <Appcomp />,
         children : [
             {
@@ -26,11 +26,11 @@ const appRouter = createBrowserRouter([
                 element : <Body />
             },
             {
-                path : "/about",
+                path : "/WeatherApp/about",
                 element : <About />
             },
             {
-                path : "/contact",
+                path : "/WeatherApp/contact",
                 element : <Contact />
             }
         ],

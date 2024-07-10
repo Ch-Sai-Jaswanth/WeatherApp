@@ -13,9 +13,9 @@ const Header = () => {
       </div>
       <div className="flex justify-center md:justify-end items-center">
         <ul className="flex flex-col md:flex-row">
-          <li className="m-2 md:m-4 px-4 text-lg"><Link to={"/"}>Home</Link></li>
-          <li className="m-2 md:m-4 px-4 text-lg"><Link to={"/about"}>About</Link></li>
-          <li className="m-2 md:m-4 px-4 text-lg"><Link to={"/contact"}>Contact</Link></li>
+          <li className="m-2 md:m-4 px-4 text-lg"><Link to={"/WeatherApp"}>Home</Link></li>
+          <li className="m-2 md:m-4 px-4 text-lg"><Link to={"/WeatherApp/about"}>About</Link></li>
+          <li className="m-2 md:m-4 px-4 text-lg"><Link to={"/WeatherApp/contact"}>Contact</Link></li>
         </ul>
       </div>
     </div>
