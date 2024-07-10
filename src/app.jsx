@@ -18,11 +18,11 @@ const Appcomp = () => {
 
 const appRouter = createBrowserRouter([
     {
-        path : "/",
+        path : "/WeatherApp",
         element : <Appcomp />,
         children : [
             {
-                path : "/",
+                path : "/WeatherApp",
                 element : <Body />
             },
             {
@@ -34,7 +34,7 @@ const appRouter = createBrowserRouter([
                 element : <Contact />
             }
         ],
-        // errorElement : "Page not found"
+        errorElement : "Page not found"
     }
 ])
 
