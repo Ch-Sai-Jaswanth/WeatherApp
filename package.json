@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "start": "vite",
-    "predeploy": "npm run build",
+    "pre-deploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "vite build"
   },
