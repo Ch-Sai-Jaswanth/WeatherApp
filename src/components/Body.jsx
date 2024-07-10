@@ -40,6 +40,12 @@ const Body = () => {
     }
   };
 
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      fetchWeather();
+    }
+  };
+
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 to-green-500 p-4">
       <div className="w-full max-w-md bg-white border border-gray-300 rounded-lg shadow-lg p-6">
@@ -49,6 +55,7 @@ const Body = () => {
           placeholder="Enter your City"
           value={city}
           onChange={(e) => setCity(e.target.value)}
+          onKeyDown={handleKeyDown}
         />
         <button
           className="w-full bg-blue-500 text-white px-4 py-2 rounded-lg focus:outline-none hover:bg-blue-600 transition duration-300"
