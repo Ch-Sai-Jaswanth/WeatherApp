@@ -16,13 +16,13 @@ const Header = () => {
       <div className="flex justify-center md:justify-end items-center">
         <ul className="flex flex-col md:flex-row">
           <li className="m-2 md:m-4 px-4 text-lg text-white hover:text-blue-800 transition duration-300">
-            <Link to={"/WeatherApp"}>Home</Link>
+            <Link to={"/"}>Home</Link>
           </li>
           <li className="m-2 md:m-4 px-4 text-lg text-white hover:text-blue-800 transition duration-300">
-            <Link to={"/WeatherApp/about"}>About</Link>
+            <Link to={"/about"}>About</Link>
           </li>
           <li className="m-2 md:m-4 px-4 text-lg text-white hover:text-blue-800 transition duration-300">
-            <Link to={"/WeatherApp/contact"}>Contact</Link>
+            <Link to={"/contact"}>Contact</Link>
           </li>
         </ul>
       </div>

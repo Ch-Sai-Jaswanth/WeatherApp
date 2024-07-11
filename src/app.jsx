@@ -22,15 +22,15 @@ const appRouter = createBrowserRouter([
         element : <Appcomp />,
         children : [
             {
-                path : "/WeatherApp",
+                path : "/",
                 element : <Body />
             },
             {
-                path : "/WeatherApp/about",
+                path : "/about",
                 element : <About />
             },
             {
-                path : "/WeatherApp/contact",
+                path : "/contact",
                 element : <Contact />
             }
         ],

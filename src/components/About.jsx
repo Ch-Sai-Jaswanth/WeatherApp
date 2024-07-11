@@ -28,8 +28,8 @@ const About = () => {
             <div className="flex justify-center md:justify-start">
                 <img src={avatar_url} alt="Github profile" className="w-32 h-32 md:w-60 md:h-60 rounded-full m-4" />
             </div>
-            <div className="flex flex-col items-center md:items-start md:ml-8 text-center md:text-left">
-                <h1 className="font-sans text-4xl md:text-5xl text-white p-2 rounded-lg mb-2">
+            <div className="flex flex-col items-center md:items-start md:ml-8 text-center md:text-left md:w-1/2 bg-white p-8 rounded-lg shadow-lg">
+                <h1 className="font-sans text-4xl md:text-5xl text-black p-2 rounded-lg mb-2 font-bold">
                 SAI JASWANTH CHAVATA
                 </h1>
                 <h1 className="font-sans text-2xl md:text-3xl p-2 rounded mb-1">
@@ -39,7 +39,7 @@ const About = () => {
                 I am passionate about web development and constantly exploring new technologies to enhance my skills. Currently pursuing Under Graduation at Gayatri Vidya Parishad College of Engineering, Visakhapatnam. I have hands-on experience in frontend and backend development using technologies like React, Node.js, MongoDB, and Tailwind CSS.
                 </p>
                 <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg focus:outline-none transition duration-300 mt-4">
-                <Link to="/WeatherApp/contact">Get in touch</Link>
+                <Link to="/contact">Get in touch</Link>
                 </button>
             </div>
         </div>
