@@ -1,11 +1,10 @@
 import React, { lazy } from "react";
 import ReactDOM from "react-dom/client";
-import { useState, useEffect } from "react";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import Header from "./components/Header.jsx";
-import Body from "./components/Body.jsx";
-import About from "./components/About.jsx";
-import Contact from "./components/Contact.jsx"; 
+import Header from "./components/Header";
+import Body from "./components/Body";
+import About from "./components/About";
+import Contact from "./components/Contact"; 
 
 const Appcomp = () => {
     return (

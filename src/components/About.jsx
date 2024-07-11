@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { GITHUB_URL } from "../utils/constants";
+import { GITHUB_URL } from "../utils/constants.js";
 import { Link } from "react-router-dom";
 
 const About = () => {
